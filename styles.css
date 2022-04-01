@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Karla/static/Karla-Regular.ttf);
+}
+@font-face {
+  font-family: 'Karla Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Karla/static/Karla-Bold.ttf);
+}
+
+body {
+  background: #E6EFF5;
+  margin-top: 72px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.community {
+  background: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.community h3 {
+  font-size: 20px;
+  font-family: 'Karla Bold';
+  color: #2AB3B1;
+  margin-bottom: 24px;
+  margin-top: 28px;
+}
+.community p:first-of-type {
+  font-size: 15px;
+  font-family: 'Karla Bold';
+  color: #C0DF33;
+}
+.community p.info {
+  font-size: 14px;
+  font-family: 'Karla';
+  color: #9AA7BE;
+  margin: 0px 0px;
+  line-height: 26px;
+}
+
+.sub-tut .subscription {
+  background: #2AB3B1;
+  color: white;
+  padding: 24px;
+}
+.subscription h3 {
+  font-size: 18px;
+  font-family: 'Karla Bold';
+  margin-top: 0px;
+}
+.subscription p.price {
+  font-size: 32px;
+  font-family: 'Karla Bold';
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.subscription p.price span {
+  font-size: 16px;
+  font-family: 'Karla';
+  opacity: 0.5;
+  vertical-align: middle;
+}
+.subscription p.access {
+  font-size: 16px;
+  font-family: 'Karla';
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
+.subscription .sign-up {
+  width: 263px;
+  height: 48px;
+  background: #C0DF33;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Karla Bold';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.subscription .sign-up a {
+  text-decoration: none;
+  color: white;
+}
+.sub-tut .tutorials {
+  background: #2AB3B1;
+  color: white;
+  opacity: 85%;
+  padding: 24px;
+}
+.tutorials h3 {
+  font-size: 18px;
+  font-family: 'Karla Bold';
+  margin-top: 0px;
+}
+.tutorials ul.tut-list {
+  font-size: 14px;
+  font-family: 'Karla';
+  margin: 0px 0px;
+  line-height: 20px;
+  opacity: 0.75;
+  letter-spacing: -0.175px;
+  list-style: none;
+  padding: 0px;
+}
