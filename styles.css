@@ -29,6 +29,7 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 32px;
+  padding-top: 28px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -37,7 +38,7 @@ body {
   font-family: 'Karla Bold';
   color: #2AB3B1;
   margin-bottom: 24px;
-  margin-top: 28px;
+  margin-top: 0px;
 }
 .community p:first-of-type {
   font-size: 15px;
@@ -117,4 +118,41 @@ body {
   letter-spacing: -0.175px;
   list-style: none;
   padding: 0px;
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: 635px;
+    margin: 0 auto;
+  }
+  .sub-tut {
+    display: flex;
+  }
+  .sub-tut .subscription,
+  .sub-tut .tutorials {
+    padding: 40px;
+  }
+  .community {
+    padding: 40px;
+  }
+  .community h3 {
+    font-size: 24px;
+  }
+  .community p:first-of-type {
+    font-size: 18px;
+    margin-bottom: 11px;
+  }
+  .community p.info {
+    font-size: 16px;
+  }
+  .subscription,
+  .tutorials {
+    width: 50%;
+  }
+  .subscription .sign-up {
+    width: 237px;
+  }
+  .subscription .sign-up:hover {
+    background: black;
+  }
 }
