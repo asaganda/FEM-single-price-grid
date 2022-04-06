@@ -35,7 +35,7 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.community h3 {
+.community h1 {
   font-size: 20px;
   font-family: 'Karla Bold';
   color: #2AB3B1;
@@ -140,7 +140,7 @@ body {
   .community {
     padding: 40px;
   }
-  .community h3 {
+  .community h1 {
     font-size: 24px;
   }
   .community p:first-of-type {
