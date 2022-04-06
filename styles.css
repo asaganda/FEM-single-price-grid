@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 @font-face {
   font-family: 'Karla';
@@ -121,6 +123,9 @@ body {
 }
 
 @media (min-width: 1100px) {
+  body {
+    margin-top: 163px;
+  }
   .container {
     width: 635px;
     margin: 0 auto;
