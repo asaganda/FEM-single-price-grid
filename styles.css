@@ -20,10 +20,12 @@ body {
   margin-top: 72px;
   margin-left: 32px;
   margin-right: 32px;
-}
-.container {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.container {
   border-radius: 5px;
 }
 .community {
@@ -133,7 +135,6 @@ body {
   }
   .container {
     width: 635px;
-    margin: 0 auto;
   }
   .sub-tut {
     display: flex;
