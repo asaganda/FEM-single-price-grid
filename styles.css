@@ -65,17 +65,22 @@ body {
   font-family: 'Karla Bold';
   margin-top: 0px;
 }
-.subscription p.price {
+.subscription .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.subscription .price .amount {
   font-size: 32px;
   font-family: 'Karla Bold';
   margin-top: 0px;
-  margin-bottom: 4px;
+  margin-right: 11px;
+  line-height: 37px;
 }
-.subscription p.price span {
+.subscription .price .month {
   font-size: 16px;
   font-family: 'Karla';
   opacity: 0.5;
-  vertical-align: middle;
 }
 .subscription p.access {
   font-size: 16px;
